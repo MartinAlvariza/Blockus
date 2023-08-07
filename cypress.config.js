@@ -5,6 +5,7 @@ module.exports = defineConfig({
     projectId: "n5wvc5",
   env: {
     url: 'https://developer-staging.blockus.net/',
+    urlProd: 'https://developer.blockus.net/'
   },
   defaultCommandTimeout: 8000,
   pageLoadTimeoyt: 10000,
@@ -16,7 +17,7 @@ module.exports = defineConfig({
 
       // implement node event listeners here
     },
-    testIsolation: false,
+    testIsolation: true,
     specPattern: 'cypress/blockus/Tests/*.js',
   
   },

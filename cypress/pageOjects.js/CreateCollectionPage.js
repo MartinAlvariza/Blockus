@@ -1,7 +1,7 @@
 export class CreateCollectionPage{
 
     getProjectButton(){
-        return cy.get('.bold');
+        return cy.get('.card-body.h-full');
     }
 
     getNewCollectionButton(){
