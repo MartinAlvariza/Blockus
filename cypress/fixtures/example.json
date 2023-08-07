@@ -1,0 +1,11 @@
+{
+  "username": "marto82",
+  "email": "malvariza+082@spacedev.io",
+  "password": "Password123!",
+  "confirmPassword": "Password123!",
+  "studioName": "teststudio",
+  "studioUrl": "teststudio.com",
+  "studioDescription": "studio description goes here pls",
+  "projectName": "Project name goes here",
+  "projectDescription": "Project description goes here as well"
+}
