@@ -21,9 +21,12 @@ it('Create studio',function(){
     cy.wait(1000);
     gameStudioPage.getCreateStudioButton().click();
     gameStudioPage.getStudioNameField().type(this.data.studioName);
-    gameStudioPage.getStudioSizeField().click({force:true}).get('.studio-size-option', { timeout: 5000 }).contains('11~50').click({force:true});
+    gameStudioPage.getStudioSizeField().click({force:true}).get('#react-select-2-option-1 > .ml-2', { timeout: 5000 }).click({force:true});
     gameStudioPage.getStudioUrl().type(this.data.studioUrl);
     gameStudioPage.getStudioDescription().type(this.data.studioDescription);
+    gameStudioPage.getCreateStudioButton2().click();
+    cy.wait(2000);
+    cy.get('h3[class="mb-2"]').contains("Let's get started");
 })     
 
 

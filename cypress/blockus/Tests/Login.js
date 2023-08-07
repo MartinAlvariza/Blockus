@@ -1,5 +1,4 @@
 import {LoginPage} from "../../pageOjects.js/LoginPage";
-import { CreateCollectionPage } from "../../pageOjects.js/CreateCollectionPage";
 
 describe('Log in flow',function(){
 
@@ -21,14 +20,6 @@ it('Log in',function(){
     cy.get('.bold').should('be.visible');
  
 })    
-
-it('Create collection',function(){
-    const createCollectionPage = new CreateCollectionPage();
-    createCollectionPage.getProjectButton().click();
-    //cy.get('.leading-5').should('be.visible');
-    //createCollectionPage.getNewCollectionButton();
- 
-})   
 
 })
 

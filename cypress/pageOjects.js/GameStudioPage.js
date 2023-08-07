@@ -9,7 +9,7 @@ export class GameStudioPage{
     }
 
     getStudioSizeField(){
-        return cy.get('.select__value-container')
+        return cy.get('.select__control')
     }
 
     getStudioUrl(){

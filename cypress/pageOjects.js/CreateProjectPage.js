@@ -1,11 +1,11 @@
 export class CreateProjectPage{
 
     getCreateProjectButton(){
-        return cy.get(':nth-child(1) > .card-body > .justify-between > .button');
+        return cy.get('.button');
     }
 
     getProjectName(){
-        return cy.get('input[name="name"]');
+        return cy.get('input[placeholder="Your project name"]');
     }
 
     getProjectDescription(){
