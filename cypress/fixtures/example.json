@@ -7,5 +7,8 @@
   "studioUrl": "teststudio.com",
   "studioDescription": "studio description goes here pls",
   "projectName": "Project name goes here",
-  "projectDescription": "Project description goes here as well"
+  "projectDescription": "Project description goes here as well",
+  "collectionName": "This is a collection name",
+  "collectionDescription": "This is a collection description!!",
+  "collectionWeb": "collection.com"
 }

@@ -5,7 +5,7 @@ export class CreateCollectionPage{
     }
 
     getNewCollectionButton(){
-        return cy.get('.py-3.5.px');
+        return cy.get('.ml-2');
     }
 
     getCollectionNameField(){
