@@ -17,11 +17,11 @@ export class CreateCollectionPage{
     }
 
     getCollectionLogo(){
-        return cy.get('.flex.gap-6.min-h-[15.625rem]').find('items-center').eq(0);
+        return cy.get('input[type="file"]').eq(0);
     }
 
     getCollectionBanner(){
-        return cy.get('.flex.gap-6.min-h-[15.625rem]').find('items-center').eq(1);
+        return cy.get('input[type="file"]').eq(1);
     }
 
     getWebField(){
