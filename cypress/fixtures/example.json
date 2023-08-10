@@ -1,6 +1,6 @@
 {
-  "username": "marto72",
-  "email": "malvariza+072@spacedev.io",
+  "username": "marto67",
+  "email": "malvariza+067@spacedev.io",
   "password": "Password123!",
   "confirmPassword": "Password123!",
   "studioName": "teststudio",
@@ -10,5 +10,9 @@
   "projectDescription": "Project description goes here as well",
   "collectionName": "This is a collection name",
   "collectionDescription": "This is a collection description!!",
-  "collectionWeb": "collection.com"
+  "collectionWeb": "collection.com",
+  "nftName": "Best NFT",
+  "nftQuantity": "100",
+  "nftPrice": "0.001",
+  "nftDescription": "This is the best NFT you have ever seen"
 }

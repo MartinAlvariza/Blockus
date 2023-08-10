@@ -17,7 +17,7 @@ module.exports = defineConfig({
 
       // implement node event listeners here
     },
-    testIsolation: true,
+    testIsolation: false,
     specPattern: 'cypress/blockus/Tests/*.js',
   
   },
