@@ -1,7 +1,7 @@
 export class CreateNftPage{
 
-    getViewButton(){
-        return cy.get('.px-2.pb-2');
+    getNftButton(){
+        return cy.get('.w-full').eq(13);
     }
 
     getAddNftButton(){

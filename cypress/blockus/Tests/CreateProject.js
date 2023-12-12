@@ -30,6 +30,6 @@ it('Create project',function(){
     createProjectPage.getCreateProjectButton2().click();
     cy.get('.card-body.h-full').should('be.visible');
     
-    }) 
+}) 
 
 })

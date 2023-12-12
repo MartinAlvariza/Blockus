@@ -1,18 +1,18 @@
 {
-  "username": "marto67",
-  "email": "malvariza+067@spacedev.io",
+  "username": "marto546",
+  "email": "malvariza+547@spacedev.io",
   "password": "Password123!",
   "confirmPassword": "Password123!",
   "studioName": "teststudio",
   "studioUrl": "teststudio.com",
   "studioDescription": "studio description goes here pls",
-  "projectName": "Project name goes here",
+  "projectName": "Project name II",
   "projectDescription": "Project description goes here as well",
   "collectionName": "This is a collection name",
   "collectionDescription": "This is a collection description!!",
   "collectionWeb": "collection.com",
   "nftName": "Best NFT",
   "nftQuantity": "100",
-  "nftPrice": "0.001",
+  "nftPrice": "1",
   "nftDescription": "This is the best NFT you have ever seen"
 }

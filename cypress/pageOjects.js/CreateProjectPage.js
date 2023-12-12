@@ -12,6 +12,10 @@ export class CreateProjectPage{
         return cy.get('input[name="description"]');
     }
 
+    getProjectImage(){
+        return cy.get('input[type="file"]');
+    }
+
     getCreateProjectButton2(){
         return cy.get('button[type="submit"]');
     }

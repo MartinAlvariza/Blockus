@@ -12,5 +12,9 @@ export class DeployCollectionPage{
         return cy.get('.button.bg-pink-500').eq(1);
     }
 
+    getBackButton(){
+        return cy.get('.text-black').eq(0);
+    }
+
 
 }
